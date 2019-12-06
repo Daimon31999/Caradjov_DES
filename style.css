@@ -1,0 +1,100 @@
+* {
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(38, 255, 0);
+}
+
+body {
+    background-image: url(./nature.png);
+}
+
+th, td {
+    border: 1px solid #841a1a;
+    border-radius: 10px;
+    padding: 6px 6px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+table {
+    /* border-collapse: c
+    ollapse; */
+    width: 100%;
+}
+
+.my_input {
+    margin-bottom: 70px;
+}
+
+#calculate {
+    display: block;
+    margin: 0 auto;
+}
+
+#inn {
+    height: 30px;
+    width: 100%;
+    margin: 30px 0px;
+}
+
+label {
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+}
+
+td {
+    text-align-last: left;
+}
+
+input {
+    color: black;
+    border: none;
+    height: 34px;
+    border-radius: 9px;
+    padding-left: 6px;
+    width: 99%;
+}
+
+#K {
+    padding: 0;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+#wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 940px) {
+
+    * {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    * {
+        font-size: 12px;
+    }
+
+    th, td {
+        padding: 0;
+    }
+    input {
+        height: 16px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    * {
+        font-size: 10px;
+    }
+}
